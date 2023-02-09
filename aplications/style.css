@@ -1,0 +1,30 @@
+.index{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: xx-large;
+}
+
+p{
+    font-size: larger;
+}
+
+img{
+    height: 500px;
+    width: 600px;
+}
+
+.body{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.body2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}

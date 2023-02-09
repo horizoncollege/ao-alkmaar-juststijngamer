@@ -1,0 +1,82 @@
+body{
+    background-image: url("afbeeldingen/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightblue;
+    text-align: center;
+}    
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightblue;
+    text-align: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.tekst{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+    font-size: larger;
+}
+img{
+    height: 600px;
+    width: 900px;
+    border-radius: 50px;
+}
+.zkk{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.gamen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.home > img{
+    height: 300px;
+    width: 200px;
+}
+.overmij > img{
+    height: 300px;
+    width: 200px;
+}
+.overmij{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+label{
+    color: white;
+}
